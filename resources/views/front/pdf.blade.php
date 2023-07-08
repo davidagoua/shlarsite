@@ -38,6 +38,9 @@
                             <div class="mt-2">
                                 {{ $participant->uid }}
                             </div>
+                            <div class="mt-2">
+                                Contact Wave: 0143970073
+                            </div>
                         </div>
                         <div class="col-md-9 col-12"x>
                             <p class="row">
@@ -62,11 +65,11 @@
                             </p>
                             <p class="row">
                                 <b class="col-12 col-md-4">Ville</b>
-                                <i class="col">{{ $participant->ville }}</i>
+                                <i class="col">{{ $participant->quartier }}</i>
                             </p>
                             <p class="row">
                                 <b class="col-12 col-md-4">Quartier</b>
-                                <i class="col">{{ $participant->quartier }}</i>
+                                <i class="col">{{ $participant->commune }}</i>
                             </p>
                             <p class="row">
                                 <b class="col-12 col-md-4">Aliment Requis</b>
