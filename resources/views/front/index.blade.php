@@ -70,12 +70,12 @@
 
     <section class="p-5">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-7">
                 <img class="img-fluid rounded"
-                     src="https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/347406409_609700691258283_7592770644824308520_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeETiju_6yTa-0Qt380p5I8kycpsxXZgnc7JymzFdmCdzllkL3LbOj9iXsTApkdML7NOTZlhm2t0JFpiWo46xie0&_nc_ohc=rCmpQ3R5H2wAX9MOICt&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfC5NDXU-4qcmY2IFoMLzgMLj1nfFMb2fnxzxVD3_78dFw&oe=64A1E7C9"
+                     src="{{ asset('images/affiche.png') }}"
                      alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-5">
                 <div class="text-center h-100 shadow" style="border: 3px solid #FC9C20">
                     <div class="d-flex h-100 justify-content-center align-items-center">
                         <div>

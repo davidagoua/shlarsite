@@ -59,6 +59,10 @@
                 <i class="col">{{ $participant->contact }}</i>
             </p>
             <p class="row">
+                <b class="col-12 col-md-4">Situation Matrimoniale</b>
+                <i class="col">{{ $participant->matrim }}</i>
+            </p>
+            <p class="row">
                 <b class="col-12 col-md-4">Ville</b>
                 <i class="col">{{ $participant->ville }}</i>
             </p>
