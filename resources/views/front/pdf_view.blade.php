@@ -25,8 +25,12 @@
             <div class="mt-2">
                 {{ $participant->uid }}
             </div>
-            <div class="mt-2">
-                Contact Wave: 0101495342
+            <div class="mt-2 d-flex flex-column align-items-center">
+                <img src="{{ asset('images/wave.png') }}" width="45" class="m2-2 img-responsive" alt="">
+                <div class="flex-1">
+                    <span>Payer par wave</span><br>
+                    0101495342
+                </div>
             </div>
         </div>
         <div class="col-md-9 col-12"x>
@@ -62,19 +66,13 @@
                 <b class="col-12 col-md-4">Aliment Requis</b>
                 <i class="col">
                     @foreach($participant->foods as $food)
-                        <span>{{ $food->food->label }}</span>
+                        <span>{{ $food->food->label }}, </span>
                     @endforeach
                 </i>
             </p>
             <p class="row">
                 <b class="col-12 col-md-4">Jour d'entretient</b>
                 <i class="col">{{ $participant->jour_entretient->label }}</i>
-            </p>
-            <p>
-                <b>Motivation</b> <br>
-            <div class="ml-5">
-                {{ $participant->motivation }}
-            </div>
             </p>
         </div>
     </div>
