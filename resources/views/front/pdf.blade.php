@@ -39,7 +39,7 @@
                                 {{ $participant->uid }}
                             </div>
                             <div class="mt-2">
-                                Contact Wave: 0143970073
+                                Contact Wave: 0101495342
                             </div>
                         </div>
                         <div class="col-md-9 col-12"x>

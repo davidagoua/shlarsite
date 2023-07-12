@@ -68,6 +68,14 @@
         </div>
     </section>
 
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
     <section class="p-5">
         <div class="row">
             <div class="col-12 col-md-7">
@@ -82,7 +90,7 @@
                             <h1 id="counter_jour"></h1> <h4>jours</h4><br>
                             <h1 id="counter"></h1>
                             <div id="attendee_loading" style="display: none">Loading</div>
-                            <form id="attendee_email" class="mt-3 d-flex m-3">
+                            <form id="attendee_email" class="mt-3 d-flex m-1">
                                 <input id="email" style="background-color: #eee" type="email"
                                        class="form-control rounded-0 p-1  border-0"
                                        placeholder="Entre votre adresse mail">
@@ -105,7 +113,7 @@
                         <ul class="splide__list text-center">
                             <li class="splide__slide">
                                 <img width="300" style="max-height: 100vh"
-                                     src="https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/355696362_609671767927842_519317046371384454_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHVv9QFFgKN07CyCuhQgIMMx1AhgJKoGCrHUCGAkqgYKpqCbGGxjo4i8Myuv8RYK4P4C2h2RNAcmeMRKyV-Qqwq&_nc_ohc=JqszHQ1SeYYAX9E_eBJ&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfCp_uW4VunmnPsC9YV7h-qWd0M8ijyzyJPtaJNuiWo3ww&oe=64A0F2BE"
+                                     src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/355708240_609671521261200_666642801282529065_n.jpg?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeF7neAUFQPLa2u-uliAb7Ca6eVBHGIrluPp5UEcYiuW4yVAnNp74XRnaWJWNPdlHrobRVz-_K2GosBP5CoOeEge&_nc_ohc=aUEweyxLHysAX9jNKfp&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfDyY3uwgExdVCEYALSprm3Kp9PAhgc4a2-_kkjL-E4N3w&oe=64ADE3A0"
                                      alt="">
                             </li>
                             <li class="splide__slide">
