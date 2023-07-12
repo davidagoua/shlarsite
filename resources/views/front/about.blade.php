@@ -41,7 +41,7 @@
 
                 <div class="col-lg-6 col-12">
                     <div class="about-text-wrap">
-                        <img src="https://scontent.fabj2-1.fna.fbcdn.net/v/t39.30808-6/355650885_607857138109305_8453061726351346725_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGMCY2T3svvFVeU8JhVepg8HWQVoXgwJVIdZBWheDAlUr9EIeaX0utzQRJ98shli0mblUWUFfZFNCRyUTYRl9Nj&_nc_ohc=kUyEo8v-mMsAX_flpBV&_nc_zt=23&_nc_ht=scontent.fabj2-1.fna&oh=00_AfBRO99SV5cIg25-iA4Nb85NO5mbbve1m6RoYDcaf7ilKA&oe=64A031D9" class="about-image img-fluid">
+                        <img src="{{ asset('images/about.jpg') }}" class="about-image img-fluid">
 
                         <div class="about-text-info d-flex">
                             <div class="d-flex">
