@@ -18,9 +18,6 @@
     <link href="/css/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/templatemo-festava-live.css" rel="stylesheet">
     <link type="favicon" rel="shortcut icon" href="{{ asset('/images/shlogo.png') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
-            integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link
@@ -34,7 +31,7 @@
 <body>
 
 <main>
-    <nav class="navbar navbar-expand-lg">
+    <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="/">
                 Sacerdoce des Héritiers
@@ -98,22 +95,7 @@
     }).init();
 
     // New Promise-based usage:
-    const build_pdf = () => {
 
-        var element = document.querySelector('#section-pdf');
-        var opt = {
-            margin: 3,
-            filename: 'preinscription-s23.pdf',
-            image: {type: 'jpeg', quality: 0.98},
-            pagebreak: {mode: ['css', 'legacy']},
-            html2canvas: {scale: 1, useCORS: true},
-            jsPDF: {unit: 'in', format: 'letter', orientation: 'l'}
-        };
-
-        console.log('record...')
-        html2pdf().set(opt).from(element).save();
-        //html2pdf(element, opt);
-    }
 </script>
 
 @stack('js')

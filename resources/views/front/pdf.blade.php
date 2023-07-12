@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section class="ticket-section section-padding">
+    <section id="presentation-bar" class="ticket-section section-padding">
         <div class="section-overlay"></div>
 
 
@@ -12,8 +12,6 @@
                 <div class="col-lg-8 col-10 mx-auto">
                     <div class="custom-form ticket-form mb-5 mb-lg-0" >
                         <h2 class="text-center mb-4">Préinscription effectuée</h2>
-
-
                         <p class="text-black">Veuillez télécharger le <b><a href="#section-pdf">pdf</a></b> ci dessous et le garder précieusement pour le jour de votre entretient</p>
 
                     </div>
@@ -98,5 +96,10 @@
             </div>
         </div>
     </div>
+    <script>
+        const build_pdf = () => {
+            document.location.href = '{{ route('pdfview', ['participant'=>$participant]) }}';
+        }
+    </script>
 
 @endsection

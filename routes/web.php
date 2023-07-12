@@ -1,5 +1,6 @@
 <?php
 
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -31,5 +32,10 @@ Route::post('/attendee_email', function(Request $request){
        'data'=>$request->input()
    ]);
 })->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class]);
+
+Route::get('/pdfview/{participant}', function($participant){
+    return view('front.pdf_view', ['participant'=>\App\Models\Participant::query()->findOrFail($participant)]);
+
+})->name('pdfview');
 
 

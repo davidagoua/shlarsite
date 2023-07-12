@@ -36,6 +36,9 @@
             <div class="mt-2">
                 {{ $participant->uid }}
             </div>
+            <div class="mt-2">
+                Contact Wave: 0101495342
+            </div>
         </div>
         <div class="col-md-9 col-12"x>
             <p class="row">
@@ -55,24 +58,16 @@
                 <i class="col">{{ $participant->lieu_naissance }}</i>
             </p>
             <p class="row">
-                <b class="col-12 col-md-4">Situation Matrimoniale</b>
-                <i class="col">{{ $participant->matrim }}</i>
-            </p>
-            <p class="row">
                 <b class="col-12 col-md-4">Contact</b>
                 <i class="col">{{ $participant->contact }}</i>
             </p>
             <p class="row">
-                <b class="col-12 col-md-4">Situation Matrimoniale</b>
-                <i class="col">{{ $participant->matrim }}</i>
-            </p>
-            <p class="row">
                 <b class="col-12 col-md-4">Ville</b>
-                <i class="col">{{ $participant->commune }}</i>
+                <i class="col">{{ $participant->quartier }}</i>
             </p>
             <p class="row">
                 <b class="col-12 col-md-4">Quartier</b>
-                <i class="col">{{ $participant->quartier }}</i>
+                <i class="col">{{ $participant->commune }}</i>
             </p>
             <p class="row">
                 <b class="col-12 col-md-4">Aliment Requis</b>
@@ -91,7 +86,6 @@
             <div class="ml-5">
                 {{ $participant->motivation }}
             </div>
-            </p>
         </div>
     </div>
 </div>
