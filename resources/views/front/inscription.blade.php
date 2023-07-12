@@ -3,12 +3,10 @@
 @section('content')
     <section class="ticket-section section-padding">
         <div class="section-overlay"></div>
-
-
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-8 col-10 mx-auto">
+                <div class="col-lg-8 col-12 mx-auto">
                     <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
                         <h2 class="text-center mb-4">Informations relatives au stage 2023</h2>
 
@@ -24,8 +22,8 @@
                         <p class="text-black">Ainsi pour le SH’23 le thème est <b>« Le protocole de la royauté »</b> . Cela dit pour participer au SH'23 chaque participant devra de prémunir de :</p>
                         <ul class="text-black">
                             <li>Vivres pouvant vous permettre de tenir le coup pendant votre séjour
-                                <br> (riz,huile,poisson frais ou fumé,plaquettes d'oeufs, poulets... et conserves de tous genres,quaker
-                                ,spaghetti,pain,lait,sucre,café,thé,céréales,ect...)</li>
+                                <br> (riz,huile,poisson frais ou fumé,plaquettes d'oeufs, brpoulets... et conserves de tous genres,quaker
+                                ,spaghetti, <br>pain,lait,sucre,café,thé,céréales,ect...)</li>
                             <li>Non-vivres (savon de bain, de lessive, poudre à laver) detergeant, papier hygiénique,ect...</li>
                             <li>Drap, manteau, couvre lit et toute autre forme de literie qualifiée nécéssaire.</li>
                             <li>Vêtements lourds capablent de d'amortir l'impact d'un froid avilissant</li>

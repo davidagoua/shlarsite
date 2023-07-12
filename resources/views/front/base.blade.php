@@ -5,7 +5,7 @@
     <title>Sacerdoce des Héritiers - S'23</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="keywords" content="Leadershio, Chrétien, perfectionnement, christian, bootcamp, masterclass, prayer, challenge, fellowship, youth, jeunesse, jeunes"/>
     <meta name="description" content="Première plateforme chrétienne de perfectionnement en leadership">
     <meta name="author" content="Sacerdoce des Héritiers">
     <Meta name=" robots" content="index, follow" />
@@ -75,7 +75,7 @@
                     </li>
                 </ul>
 
-                <a href="{{ route('inscription') }}" class="btn custom-btn d-lg-block d-none">Participer</a>
+                <a href="{{ route('inscription') }}" class="btn custom-btn d-lg-block d-sm-none d-none">Participer</a>
             </div>
         </div>
     </nav>
