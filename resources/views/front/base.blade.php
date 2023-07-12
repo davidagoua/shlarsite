@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
+    <title>Sacerdoce des Héritiers - S'23</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Première plateforme chrétienne de perfectionnement en leadership">
+    <meta name="author" content="Sacerdoce des Héritiers">
+    <Meta name=" robots" content="index, follow" />
 
-    <title>Sacerdoce des Héritiers - S'23</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +25,15 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PXS4Z3ZBH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4PXS4Z3ZBH');
+    </script>
 
     @stack('style')
 </head>
@@ -61,7 +71,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="/#section_6">Devenir Partenaire</a>
+                        <a class="nav-link click-scroll" href="/patner">Devenir Partenaire</a>
                     </li>
                 </ul>
 
