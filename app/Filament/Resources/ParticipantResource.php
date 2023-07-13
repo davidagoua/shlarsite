@@ -31,7 +31,10 @@ class ParticipantResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('id'),
                 Tables\Columns\TextColumn::make('uid'),
+                Tables\Columns\TextColumn::make('contact'),
+                Tables\Columns\ImageColumn::make('cni'),
                 Tables\Columns\TextColumn::make('nom'),
                 Tables\Columns\TextColumn::make('prenoms'),
             ])
