@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <title>Sacerdoce des Héritiers - S'23</title>
@@ -8,7 +8,7 @@
     <meta name="keywords" content="Leadershio, Chrétien, perfectionnement, christian, bootcamp, masterclass, prayer, challenge, fellowship, youth, jeunesse, jeunes"/>
     <meta name="description" content="Première plateforme chrétienne de perfectionnement en leadership">
     <meta name="author" content="Sacerdoce des Héritiers">
-    <Meta name=" robots" content="index, follow" />
+    <Meta name=" robots" content="index,follow" />
 
 
     <!-- CSS FILES -->
@@ -47,7 +47,7 @@
                 Sacerdoce des Héritiers
             </a>
 
-            <a href="{{ route('inscription') }}" class="btn custom-btn d-lg-none ms-auto me-4">Participer</a>
+            <a href="{{ route('inscription') }}" class="btn  d-sm-none custom-btn d-lg-none ms-auto me-4">Participer</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

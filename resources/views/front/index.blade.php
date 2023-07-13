@@ -140,7 +140,7 @@
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <h2 class="text-center mb-4">Voulez vous associer votre image au S'23</h2>
+                        <h2 class="text-center mb-4">Voulez-vous associer votre image au S'23</h2>
 
 
                         <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
