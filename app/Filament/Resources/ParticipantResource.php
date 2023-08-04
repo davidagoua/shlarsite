@@ -2,9 +2,11 @@
 
 namespace App\Filament\Resources;
 
+use AlperenErsoy\FilamentExport\Actions\FilamentExportBulkAction;
 use App\Filament\Resources\ParticipantResource\Pages;
 use App\Filament\Resources\ParticipantResource\RelationManagers;
 use App\Models\Participant;
+use Carbon\Carbon;
 use Filament\Forms;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
@@ -32,11 +34,16 @@ class ParticipantResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('id'),
-                Tables\Columns\TextColumn::make('uid'),
                 Tables\Columns\TextColumn::make('contact'),
                 Tables\Columns\ImageColumn::make('cni'),
-                Tables\Columns\TextColumn::make('nom'),
-                Tables\Columns\TextColumn::make('prenoms'),
+                Tables\Columns\TextColumn::make('date_naissance'),
+                Tables\Columns\TextColumn::make('commune'),
+                Tables\Columns\TextColumn::make('age')->getStateUsing(function($record){
+                    return (new Carbon($record->date_naissance))->diff(now())->y . ' ans';
+                }),
+                Tables\Columns\TextColumn::make('nom')->searchable(isIndividual: true),
+                Tables\Columns\TextColumn::make('prenoms')->searchable(isIndividual: true),
+                Tables\Columns\TextColumn::make('jour_entretient.label'),
             ])
             ->filters([
                 //
@@ -46,6 +53,8 @@ class ParticipantResource extends Resource
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
+                FilamentExportBulkAction::make('export')
+                    ->timeFormat('m y d')
             ]);
     }
 

@@ -14,7 +14,11 @@ class Participant extends Model
 
     public function jour_entretient(): BelongsTo
     {
-        return $this->belongsTo(EntretientDay::class, 'entretient_day_id');
+        return $this->belongsTo(EntretientDay::class, 'entretient_day_id')
+                ->withDefault([
+                    'id'=>1,
+                    'label'=>'Samedi 05 Aôut 2023'
+                ]);
     }
 
     public function foods(): HasMany
