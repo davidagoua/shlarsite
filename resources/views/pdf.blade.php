@@ -31,7 +31,7 @@
     <div class="row">
         <div class="col-md-3 col-12">
             <div>
-                <img src="{{ asset('storage/'.$participant->cni) }}" class="w-100" height="70" width="70" alt="">
+                <img src="{{ asset('storage/'.$participant->cni) }}" class="w-100 img-responsive" height="70" width="70" alt="">
             </div>
             <div class="mt-2">
                 {{ $participant->uid }}
