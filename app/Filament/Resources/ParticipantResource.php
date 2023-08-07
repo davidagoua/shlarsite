@@ -50,6 +50,11 @@ class ParticipantResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\Action::make('pdf')
+                    ->url(function($record){
+                        return "https://sacerdoce-des-heritiers.com/pdfview/". $record->id;
+                    })
+                    ->openUrlInNewTab()
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
