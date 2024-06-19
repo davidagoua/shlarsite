@@ -7,7 +7,6 @@
             <div class="row">
 
                 <div class="col-lg-8 col-12 mx-auto">
-                    <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
                         <h2 class="text-center mb-4">Informations relatives au stage 2024</h2>
 
                         <p class="text-black">Pour le sacerdoce des héritiers la notion de stage fait référence à des instants de retraites
@@ -31,7 +30,7 @@
                             <li>D'une tenue de sport avec des chaussures fermées capables de pratiquer n'importe quel terrain</li>
                             <li>D'un pantalon Jeans bleu ou noir au moins dans sa garde robe.</li>
                         </ul>
-                    </form>
+                   
                 </div>
             </div>
     </section>
@@ -148,9 +147,9 @@
                                 <input type="file" name="cni" id="imageUpload"
                                        class="form-control" required>
                             </div>
-                            <div>
+                            <div class="mb-3">
                                 <div>
-                                <img id="previewImage" src="" alt="Image uploadée">
+                                <img id="previewImage" src="">
                                 </div>
                             </div>
 
