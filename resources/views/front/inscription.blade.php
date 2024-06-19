@@ -7,6 +7,7 @@
             <div class="row">
 
                 <div class="col-lg-8 col-12 mx-auto">
+                    <div class="bg-white rounded shadow">
                         <h2 class="text-center mb-4">Informations relatives au stage 2024</h2>
 
                         <p class="text-black">Pour le sacerdoce des héritiers la notion de stage fait référence à des instants de retraites
@@ -30,7 +31,7 @@
                             <li>D'une tenue de sport avec des chaussures fermées capables de pratiquer n'importe quel terrain</li>
                             <li>D'un pantalon Jeans bleu ou noir au moins dans sa garde robe.</li>
                         </ul>
-                   
+                    </div>
                 </div>
             </div>
     </section>
