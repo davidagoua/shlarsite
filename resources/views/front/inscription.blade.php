@@ -8,7 +8,7 @@
 
                 <div class="col-lg-8 col-12 mx-auto">
                     <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                        <h2 class="text-center mb-4">Informations relatives au stage 2023</h2>
+                        <h2 class="text-center mb-4">Informations relatives au stage 2024</h2>
 
                         <p class="text-black">Pour le sacerdoce des héritiers la notion de stage fait référence à des instants de retraites
                             qui se déroulent durant une période bien définie hors de nos zones de confort.</p>
@@ -127,14 +127,14 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group">
-                                        <label for="">Ville</label>
+                                        <label for="">Ville habitée</label>
                                         <input class="form-control valid" name="quartier" id="name" required  placeholder="Entrez votre ville">
                                         @error('ville') <small class="red-text">{{ $message }}</small>@enderror
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="form-group">
-                                        <label for="">Commune</label>
+                                        <label for="">Commune habitée</label>
                                         <input class="form-control valid" name="commune" id="email" type="text" required  placeholder="Entrez votre commune">
                                         @error('commune') <small class="red-text">{{ $message }}</small>@enderror
                                     </div>
