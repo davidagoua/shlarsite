@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Sacerdoce des Héritiers - S'23</title>
+    <title>Sacerdoce des Héritiers - S'24</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Leadershio, Chrétien, perfectionnement, christian, bootcamp, masterclass, prayer, challenge, fellowship, youth, jeunesse, jeunes"/>

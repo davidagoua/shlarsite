@@ -19,7 +19,7 @@
                             leaders à la manière SH. Nous avons notre propre politique de perfectionnement en leadership à
                             travers des enseignements requis, des enseignants ressources suffisamment rodés dans leurs domaines.</p>
                         <p class="text-black">Avec un calendrier vraiment chargé en activités, notre programme tourne autour d’un thème bien défini à chaque Edition.</p>
-                        <p class="text-black">Ainsi pour le SH’23 le thème est <b>« Le protocole de la royauté »</b> . Cela dit pour participer au SH'23 chaque participant devra de prémunir de :</p>
+                        <p class="text-black">Ainsi pour le SH’24 le thème est <b>« Le protocole de la royauté »</b> . Cela dit pour participer au SH'24 chaque participant devra de prémunir de :</p>
                         <ul class="text-black">
                             <li>Vivres pouvant vous permettre de tenir le coup pendant votre séjour
                                 <br> (riz,huile,poisson frais ou fumé,plaquettes d'oeufs, brpoulets... et conserves de tous genres,quaker
