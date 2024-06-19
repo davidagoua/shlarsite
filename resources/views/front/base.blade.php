@@ -90,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12 mt-5">
-                    <p class="copyright-text">Copyright © 2023 Sacerdoce des Héritiers</p>
+                    <p class="copyright-text">Copyright © 2024 Sacerdoce des Héritiers</p>
                 </div>
             </div>
         </div>

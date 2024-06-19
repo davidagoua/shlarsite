@@ -12,7 +12,7 @@
                         <img width="90" src="{{ asset('/images/shlogo.png') }}" alt="">
                     </small>
 
-                    <h1 class="text-white mb-5">Stage 2023</h1>
+                    <h1 class="text-white mb-5">Stage 2024</h1>
 
                     <a class="btn custom-btn smoothscroll" href="{{ route('inscription') }}">Préinscription</a>
                 </div>
@@ -21,7 +21,7 @@
                     <div class="date-wrap">
                         <h5 class="text-white">
                             <i class="custom-icon bi-clock me-2"></i>
-                            16 Août - 02 Septembre, 2023
+                            14 Août - 02 Septembre, 2024
                         </h5>
                     </div>
 
@@ -216,7 +216,7 @@
         }
 
         // Set the date we're counting down to
-        var countDownDate = new Date("Aug 16, 2023 15:37:25").getTime();
+        var countDownDate = new Date("Aug 17, 2024 15:37:25").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {

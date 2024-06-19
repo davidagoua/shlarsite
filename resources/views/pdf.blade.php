@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sacerdoce des Héritiers - S'23</title>
+    <title>Sacerdoce des Héritiers - S'24</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
