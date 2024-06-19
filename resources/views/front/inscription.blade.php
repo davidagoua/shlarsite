@@ -145,8 +145,13 @@
 
                             <div>
                                 <label for="">Photo d'identité</label>
-                                <input type="file" name="cni" id="ticket-form-number"
+                                <input type="file" name="cni" id="imageUpload"
                                        class="form-control" required>
+                            </div>
+                            <div>
+                                <div>
+                                <img id="previewImage" src="" alt="Image uploadée">
+                                </div>
                             </div>
 
                             <div>
@@ -163,4 +168,19 @@
                 </div>
             </div>
     </section>
+    <script>
+        const imageUpload = document.getElementById('imageUpload');
+
+        imageUpload.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const previewImage = document.getElementById('previewImage');
+            previewImage.src = e.target.result;
+        };
+
+        reader.readAsDataURL(file);
+        });
+    </script>
 @endsection
