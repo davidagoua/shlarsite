@@ -15,18 +15,18 @@ class InscriptionController extends Controller
 {
     public function index(Request $request)
     {
-        if($request->isMethod('post')){
-
+        if($request->isMethod('POST')){
+            dd($request);
             $request->validate([
                 'contact'=>'required|unique:participants'
             ]);
 
             $participant = new Participant($request->all());
             $participant->cni = $request->file('cni')->store('public/participants','public');
-            $participant->uid = "#SH20.23-".now()->format('dmH')."-".strtoupper(Str::random(5))."".substr($participant->nom, 0, 1);
+            $participant->uid = "#SH20.24-".now()->format('dmH')."-".strtoupper(Str::random(5))."".substr($participant->nom, 0, 1);
             $participant->save();
 
-            $request->session()->flash('success', 'Merci pour votre préinscription, votre dossier sera evalué et ...');
+            $request->session()->flash('success', 'Inscription effectuée, votre dossier sera evalué.');
             return redirect()->route('choix', ['participant'=>$participant->id]);
         }
         return view('front.inscription');
