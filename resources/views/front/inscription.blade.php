@@ -7,7 +7,7 @@
             <div class="row">
 
                 <div class="col-lg-8 col-12 mx-auto">
-                    <div class="bg-white rounded shadow">
+                    <div class="bg-white rounded shadow p-3">
                         <h2 class="text-center mb-4">Informations relatives au stage 2024</h2>
 
                         <p class="text-black">Pour le sacerdoce des héritiers la notion de stage fait référence à des instants de retraites
