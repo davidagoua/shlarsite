@@ -40,7 +40,7 @@
             <div class="row">
 
                 <div class="col-lg-8 col-10 mx-auto">
-                    <form class="custom-form ticket-form mb-5 mb-lg-0" action="{{ route('inscription') }}" enctype="multipart/form-data" method="post" role="form">
+                    <form class="custom-form ticket-form mb-5 mb-lg-0" action="/inscription" enctype="multipart/form-data" method="post" role="form">
                         @csrf
                         <h2 class="text-center mb-4">S'inscrire</h2>
 
