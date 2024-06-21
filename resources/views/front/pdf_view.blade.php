@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-md-3 col-12">
             <div>
-                <img src="{{ asset('storage/'.$participant->cni) }}" class="w-100" alt="">
+                <img src="storage/public/{{$participant->cni}}" class="w-100" alt="">
             </div>
             <div class="mt-2">
                 {{ $participant->uid }}
