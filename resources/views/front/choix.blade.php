@@ -52,6 +52,7 @@
 
                         <div>
                             <h5 class="mb-3">Alimentaires</h5>
+                            <span>Choisissez au moins 2 options</span>
                             <div class="row mt-3">
                                     @foreach($foods as $food)
                                 <div class="col-lg-4 col-md-4 col-12">
