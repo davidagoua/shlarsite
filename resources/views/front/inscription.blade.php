@@ -157,7 +157,7 @@
                             <div>
                                 <label for=""> Lettre de motivation</label>
                             <textarea name="motivation" rows="3" class="form-control"
-                                      id="ticket-form-message" placeholder="Pourquoi désirez-vous participer au S'23 ?"></textarea>
+                                      id="ticket-form-message" placeholder="Pourquoi désirez-vous participer au S'24 ?"></textarea>
                             </div>
 
                             <div class="col-lg-4 col-md-10 col-8 mx-auto">
