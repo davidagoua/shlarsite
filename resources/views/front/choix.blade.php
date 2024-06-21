@@ -13,7 +13,7 @@
                         <h2 class="text-center mb-4">Entretient</h2>
 
 
-                        <p class="text-black">Pour le SH’23 le thème est <b>« Protocole de la royauté »</b> . Cela
+                        <p class="text-black">Pour le SH’24 le thème est <b>« Protocole de la royauté »</b> . Cela
                             dit pour participer au SH'23 chaque participant devra de prémunir de :</p>
 
                     </div>
