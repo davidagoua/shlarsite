@@ -75,7 +75,7 @@
                     </li>
                 </ul>
 
-                <a href="{{ route('inscription') }}" class="btn custom-btn d-lg-block d-sm-none d-none">Participer</a>
+                <a href="/inscription" class="btn custom-btn d-lg-block d-sm-none d-none">Participer</a>
             </div>
         </div>
     </nav>
