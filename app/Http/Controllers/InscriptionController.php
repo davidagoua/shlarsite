@@ -16,7 +16,6 @@ class InscriptionController extends Controller
     public function index(Request $request)
     {
         if($request->isMethod('POST')){
-            dd($request);
             $request->validate([
                 'contact'=>'required|unique:participants'
             ]);
