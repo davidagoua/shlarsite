@@ -25,7 +25,7 @@
         <div class="row">
 
             <div class="col-lg-8 col-10 mx-auto">
-                <form class="custom-form ticket-form mb-5 mb-lg-0" action="{{ route('choix', ['participant'=>$participant->id]) }}"
+                <form class="custom-form ticket-form mb-5 mb-lg-0" action="/_inscription/{{ $participant->id }}/"
                       enctype="multipart/form-data" method="post" role="form">
                     @csrf
 
