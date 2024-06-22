@@ -69,17 +69,10 @@
                                 <b class="col-12 col-md-4">Quartier</b>
                                 <i class="col">{{ $participant->commune }}</i>
                             </p>
-                            <p class="row">
-                                <b class="col-12 col-md-4">Aliment Requis</b>
-                                <i class="col">
-                                @foreach($participant->foods as $food)
-                                   <span>{{ $food->food->label }}</span>
-                                @endforeach
-                                </i>
-                            </p>
+                           
                             <p class="row">
                                 <b class="col-12 col-md-4">Jour d'entretient</b>
-                                <i class="col">{{ $participant->jour_entretient->label }}</i>
+                                <i class="col">07 Août 2024</i>
                             </p>
                             <p>
                                 <b>Motivation</b> <br>
