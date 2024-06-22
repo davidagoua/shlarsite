@@ -62,7 +62,7 @@
 
                             <div>
                                 <label for="">Numéro de téléphone</label>
-                                <input required type="phone" class="form-control" name="contact">
+                                <input required type="phone" pattern="[0-9]{10}" class="form-control" name="contact">
                                 @error('contact') <span class="text-danger"> {{ $message }}</span>@enderror
                             </div>
 
