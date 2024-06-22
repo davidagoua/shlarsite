@@ -26,7 +26,7 @@ class InscriptionController extends Controller
             $participant->save();
 
             $request->session()->flash('success', 'Inscription effectuée, votre dossier sera evalué.');
-            return redirect()->route('choix', ['participant'=>$participant->id]);
+            return redirect()->route('pdfsection', ['participant'=>$participant->id]);
         }
         return view('front.inscription');
     }
