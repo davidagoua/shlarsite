@@ -169,7 +169,7 @@
                                                   id="contact-message" placeholder="Message"></textarea>
 
                                         <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                            <button type="submit" class="form-control">Envoyer</button>
+                                            <button type="submit" class="form-control bg-danger">Envoyer</button>
                                         </div>
                                     </div>
                                 </form>
