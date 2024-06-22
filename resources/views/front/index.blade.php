@@ -84,7 +84,7 @@
                      alt="">
             </div>
             <div class="col-12 col-md-5">
-                <div class="text-center h-100 shadow" style="border: 3px solid #FC9C20">
+                <div class="text-center h-100 shadow" style="border: 3px solid red">
                     <div class="d-flex h-100 justify-content-center align-items-center">
                         <div>
                             <h1 id="counter_jour"></h1> <h4>jours</h4><br>
