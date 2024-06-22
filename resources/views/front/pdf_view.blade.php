@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-md-3 col-12">
             <div>
-                <img src="storage/public/{{$participant->cni}}" class="w-100" alt="">
+                <img src="/storage/public/{{$participant->cni}}" class="w-100" alt="">
             </div>
             <div class="mt-2">
                 {{ $participant->uid }}
@@ -62,17 +62,10 @@
                 <b class="col-12 col-md-4">Quartier</b>
                 <i class="col">{{ $participant->commune }}</i>
             </p>
-            <p class="row">
-                <b class="col-12 col-md-4">Aliment Requis</b>
-                <i class="col">
-                    @foreach($participant->foods as $food)
-                        <span>{{ $food->food->label }}, </span>
-                    @endforeach
-                </i>
-            </p>
+            
             <p class="row">
                 <b class="col-12 col-md-4">Jour d'entretient</b>
-                <i class="col">{{ $participant->jour_entretient->label }}</i>
+                <i class="col">07 Août 2024</i>
             </p>
         </div>
     </div>
