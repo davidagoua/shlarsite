@@ -94,8 +94,8 @@
                                 <input id="email" style="background-color: #eee" type="email"
                                        class="form-control rounded-0 p-1  border-0"
                                        placeholder="Entre votre adresse mail">
-                                <button onclick="registerForNewsletter" style="background-color: #FC9C20"
-                                        class="btn btn-sm text-white rounded-0">Me prevenir
+                                <button onclick="registerForNewsletter" 
+                                        class="btn btn-sm text-white bg-danger rounded-0">Me prevenir
                                 </button>
                             </form>
                         </div>
