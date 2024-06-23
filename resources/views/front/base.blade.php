@@ -18,7 +18,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/templatemo-festava-live.css" rel="stylesheet">
-    <link type="favicon" rel="shortcut icon" href="{{ asset('/images/shlogo.png') }}">
+    <link type="favicon" rel="shortcut icon" href="/images/shlogo.png">
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link
