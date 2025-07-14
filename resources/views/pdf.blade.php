@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sacerdoce des Héritiers - S'24</title>
+    <title>Sacerdoce des Héritiers - S'25</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,7 +71,7 @@
             </p>
             <p class="row">
                 <b class="col-12 col-md-4">Jour d'entretient</b>
-                <i class="col">07 Août 2024</i>
+                <i class="col">07 Août 2025</i>
             </p>
             <p>
                 <b>Motivation</b> <br>

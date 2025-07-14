@@ -77,14 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            href="{{ route('about') }}">Qui sommes-nous ?</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll @if(request()->is('activites')) active @endif"
-                           href="{{ route('activites') }}">Activités</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="/patner">Devenir Partenaire</a>
-                    </li>
                 </ul>
 
                 <a href="/inscription" class="btn custom-btn d-lg-block d-sm-none d-none">Participer</a>

@@ -62,10 +62,10 @@
                 <b class="col-12 col-md-4">Quartier</b>
                 <i class="col">{{ $participant->commune }}</i>
             </p>
-            
+
             <p class="row">
                 <b class="col-12 col-md-4">Jour d'entretient</b>
-                <i class="col">07 Août 2024</i>
+                <i class="col">07 Août 2025</i>
             </p>
         </div>
     </div>
