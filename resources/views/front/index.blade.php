@@ -60,11 +60,7 @@
         </div>
 
         <div class="video-wrap">
-            <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                <source src="video/teaser.mov" type="video/mp4">
-
-                Your browser does not support the video tag.
-            </video>
+            <img src="/images/back.jpg" alt="">
         </div>
     </section>
 
