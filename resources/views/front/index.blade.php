@@ -21,7 +21,7 @@
                     <div class="date-wrap">
                         <h5 class="text-white">
                             <i class="custom-icon bi-clock me-2"></i>
-                            14 - 30 Août, 2025
+                            15 - 30 Août, 2025
                         </h5>
                     </div>
 
@@ -61,7 +61,7 @@
 
         <div class="video-wrap">
             <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                <source src="video/teaser.mp4" type="video/mp4">
+                <source src="video/teaser.mov" type="video/mp4">
 
                 Your browser does not support the video tag.
             </video>

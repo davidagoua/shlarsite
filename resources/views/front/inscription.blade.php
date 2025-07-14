@@ -8,7 +8,7 @@
 
                 <div class="col-lg-8 col-12 mx-auto">
                     <div class="bg-white rounded shadow p-3">
-                        <h2 class="text-center mb-4">Informations relatives au stage 2024</h2>
+                        <h2 class="text-center mb-4">Informations relatives au stage 2025</h2>
 
                         <p class="text-black">Pour le sacerdoce des héritiers la notion de stage fait référence à des instants de retraites
                             qui se déroulent durant une période bien définie hors de nos zones de confort.</p>
@@ -19,7 +19,7 @@
                             leaders à la manière SH. Nous avons notre propre politique de perfectionnement en leadership à
                             travers des enseignements requis, des enseignants ressources suffisamment rodés dans leurs domaines.</p>
                         <p class="text-black">Avec un calendrier vraiment chargé en activités, notre programme tourne autour d’un thème bien défini à chaque Edition.</p>
-                        <p class="text-black">Ainsi pour le SH’24 le thème est <b>« Témoins de sa gloire »</b> . Cela dit pour participer au SH'24 chaque participant devra de prémunir de :</p>
+                        <p class="text-black">Ainsi pour le SH’25 le thème est <b>« La saison des Honneurs»</b> . Cela dit pour participer au SH'25 chaque participant devra de prémunir de :</p>
                         <ul class="text-black">
                             <li>Vivres pouvant vous permettre de tenir le coup pendant votre séjour
                                 <br> (riz,huile,poisson frais ou fumé,plaquettes d'oeufs, brpoulets... et conserves de tous genres,quaker
@@ -150,14 +150,14 @@
                             </div>
                             <div class="mb-3">
                                 <div>
-                                <img id="previewImage" src="">
+                                <img id="previewImage" width="300" src="">
                                 </div>
                             </div>
 
                             <div>
                                 <label for=""> Lettre de motivation</label>
                             <textarea name="motivation" rows="3" class="form-control"
-                                      id="ticket-form-message" placeholder="Pourquoi désirez-vous participer au S'24 ?"></textarea>
+                                      id="ticket-form-message" placeholder="Pourquoi désirez-vous participer au S'25 ?"></textarea>
                             </div>
 
                             <div class="col-lg-4 col-md-10 col-8 mx-auto">
