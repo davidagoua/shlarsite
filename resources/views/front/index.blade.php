@@ -12,7 +12,7 @@
                         <img width="90" src="{{ asset('/images/shlogo.png') }}" alt="">
                     </small>
 
-                    <h1 class="text-white mb-5">Stage 2024</h1>
+                    <h1 class="text-white mb-5">Stage 2025</h1>
 
                     <a class="btn custom-btn smoothscroll" href="{{ route('inscription') }}">Préinscription</a>
                 </div>
@@ -21,7 +21,7 @@
                     <div class="date-wrap">
                         <h5 class="text-white">
                             <i class="custom-icon bi-clock me-2"></i>
-                            14 - 30 Août, 2024
+                            14 - 30 Août, 2025
                         </h5>
                     </div>
 
@@ -94,7 +94,7 @@
                                 <input id="email" style="background-color: #eee" type="email"
                                        class="form-control rounded-0 p-1  border-0"
                                        placeholder="Entre votre adresse mail">
-                                <button onclick="registerForNewsletter" 
+                                <button onclick="registerForNewsletter"
                                         class="btn btn-sm text-white bg-danger rounded-0">Me prevenir
                                 </button>
                             </form>
