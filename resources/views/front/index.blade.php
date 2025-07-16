@@ -60,7 +60,7 @@
         </div>
 
         <div class="video-wrap">
-            <img src="/images/back.jpg" alt="">
+            <img src="/images/back.jpg" width="100%" alt="">
         </div>
     </section>
 
@@ -73,7 +73,7 @@
     </section>
 
     <section class="p-5">
-        <div class="row">
+        <div class="row d-none" >
             <div class="col-12 col-md-7">
                 <img class="img-fluid rounded"
                      src="{{ asset('images/affiche.png') }}"
