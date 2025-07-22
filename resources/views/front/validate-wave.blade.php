@@ -22,7 +22,7 @@
 </section>
 <div class="container">
 
-    <form action="." method="post">
+    <form action="{{ route('validate_wave') }}" method="post">
         @csrf
         <div class="d-md-flex align-items-center">
             <div class="p-5">
@@ -37,8 +37,9 @@
 
         </div>
         <div class="my-3 w-50 mx-auto">
-            <div >
-                <input type="text" required class="form-control" >
+            <div class="mb-3">
+                <label for="">6 premiers caractères de l'ID de la transaction</label>
+                <input type="text" required class="form-control" name="idtransaction">
                 @if($error) <small class="text-danger">{{ $error }}</small> @endif
             </div>
             <div class="mb-3 text-right">
