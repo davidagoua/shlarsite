@@ -49,7 +49,7 @@ class InscriptionController extends Controller
                 return redirect()->route('inscription', ['participant'=>$participant->uid]);
             }
             $error = "La transaction n'existe pas.";
-
+            session()->flash('error', $error);
         }
         return view('front.validate-wave', ['error'=>$error]);
     }
