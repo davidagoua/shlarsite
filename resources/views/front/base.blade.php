@@ -110,6 +110,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         'boxClass': 'waw',
     }).init();
 
+    @if(session('error'))
+    Swal.fire({
+        title: "Erreur !",
+        text: "{{ session()->get('error') }}",
+        icon: "error"
+    });
+    @endif
+
     // New Promise-based usage:
 
 </script>
