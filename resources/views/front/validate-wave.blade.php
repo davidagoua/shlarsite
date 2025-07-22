@@ -13,9 +13,6 @@
                     <h2 class="text-center mb-4">Verification de paiement</h2>
 
 
-                    <p class="text-black">Pour le SH’24 le thème est <b>« Aquis à sa cause »</b> . Cela
-                        dit pour participer au SH'24 chaque participant devra de prémunir de :</p>
-
                 </div>
             </div>
         </div>
