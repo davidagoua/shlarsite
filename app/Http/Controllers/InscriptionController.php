@@ -46,7 +46,6 @@ class InscriptionController extends Controller
             $participant = Participant::query()->firstWhere(['uid'=> strtoupper($request->idtransaction)]);
 
             if($participant){
-
                 return redirect()->route('inscription', ['participant'=>$participant->uid]);
             }
             $error = "La transaction n'existe pas.";
