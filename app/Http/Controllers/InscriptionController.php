@@ -13,22 +13,45 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class InscriptionController extends Controller
 {
-    public function index(Request $request)
+    public function index(Request $request, Participant $participant = null)
     {
+        if ($participant == null) {
+            return redirect()->route('validate_wave');
+        }
+
         if($request->isMethod('POST')){
             $request->validate([
                 'contact'=>'required|unique:participants'
             ]);
 
-            $participant = new Participant($request->all());
+            $participant = $participant->fill($request->all());
             $participant->cni = $request->file('cni')->store('public/participants','public');
-            $participant->uid = "#SH20.24-".now()->format('dmH')."-".strtoupper(Str::random(5))."".substr($participant->nom, 0, 1);
+            $participant->uid = "#SH20.25-".now()->format('dmH')."-".strtoupper(Str::random(5))."".substr($participant->nom, 0, 1);
             $participant->save();
 
             $request->session()->flash('success', 'Inscription effectuée, votre dossier sera evalué.');
             return redirect()->route('pdfsection', ['participant'=>$participant->id]);
         }
         return view('front.inscription');
+    }
+
+    public function validate_wave(Request $request)
+    {
+        $error = null;
+        if($request->isMethod('POST')){
+            $request->validate([
+                'idtransaction'=>'required'
+            ]);
+
+            $participant = Participant::query()->firstWhere(['uid'=> strtoupper($request->idtransaction)]);
+
+            if($participant == null){
+                $error = "La transaction n'existe pas.";
+            }
+
+            return redirect()->route('inscription', ['participant'=>$participant->uid]);
+        }
+        return view('front.validate-wave', ['error'=>$error]);
     }
 
     public function choix(Request $request, Participant $participant)
