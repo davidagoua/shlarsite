@@ -37,11 +37,13 @@
 
         </div>
         <div class="my-3 w-50 mx-auto">
-            <input type="text" required class="form-control" >
-            @if($error) <small class="text-danger">{{ $error }}</small> @endif
-        </div>
-        <div class="mb-3">
-            <button class="btn btn-primary" type="submit">Valider</button>
+            <div >
+                <input type="text" required class="form-control" >
+                @if($error) <small class="text-danger">{{ $error }}</small> @endif
+            </div>
+            <div class="mb-3 text-right">
+                <button class="btn custom-btn" type="submit">Valider</button>
+            </div>
         </div>
     </form>
 
