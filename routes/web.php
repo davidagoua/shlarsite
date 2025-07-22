@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::controller(\App\Http\Controllers\InscriptionController::class)->group(function(){
-    Route::any('/inscription/{participant:uid}', 'index')->name('inscription');
+    Route::any('/inscription/{participant:uid?}', 'index')->name('inscription');
     Route::any('/_inscription/{participant}', 'choix')->name('choix');
     Route::any('/pdf/{participant}', 'pdfsection')->name('pdfsection');
     Route::get('/pdffile/{participant}', 'pdf')->name('pdf');
