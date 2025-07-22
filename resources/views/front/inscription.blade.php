@@ -36,7 +36,7 @@
             </div>
     </section>
 
-        <div class="container">
+        <div class="container" x-data="{step: 1}">
             <div class="row">
 
                 <div class="col-lg-8 col-10 mx-auto">
