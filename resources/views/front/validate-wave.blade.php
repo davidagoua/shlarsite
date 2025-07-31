@@ -23,17 +23,17 @@
         @csrf
         <div class="d-md-flex align-items-center">
             <div class="p-5">
-                <img src="{{asset('/images/img.png')}}" alt="">
+                <img width="90%" class="img-responsive" src="{{asset('/images/img.png')}}" alt="">
             </div>
             <h3 class="p-5">
-                <p>1 - Effectuez votre paiement sur le numéro wave suivant</p>
-                <p>2 - Cliquer sur la transaction pour voir les details</p>
+                <p>1 - Effectuez votre paiement sur le numéro wave suivant: 0101495342</p>
+                <p>2 - Cliquez sur la transaction pour voir les details</p>
                 <p>3 - Entrez dans le champs ci-dessous les 6 premiers caractères de l'ID de la transaction</p>
             </h3>
 
 
         </div>
-        <div class="my-3 w-50 mx-auto">
+        <div class="my-3 w-md-50 mx-auto">
             <div class="mb-3">
                 <label for="">6 premiers caractères de l'ID de la transaction</label>
                 <input type="text" required class="form-control" name="idtransaction">

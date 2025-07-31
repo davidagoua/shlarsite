@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Sacerdoce des Héritiers
             </a>
 
-            <a href="{{ route('inscription') }}" class="btn  d-sm-none custom-btn d-lg-none ms-auto me-4">Participer</a>
+            <a href="{{ route('inscription') }}" class="btn d-none d-sm-none custom-btn d-lg-none ms-auto me-4">Participer</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

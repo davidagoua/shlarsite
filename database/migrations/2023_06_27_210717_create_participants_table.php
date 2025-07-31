@@ -14,13 +14,13 @@ return new class extends Migration
         Schema::create('participants', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('nom');
-            $table->string('prenoms');
+            $table->string('nom')->nullable();
+            $table->string('prenoms')->nullable();
             $table->string('commune')->nullable();
             $table->string('quartier')->nullable();
-            $table->date('date_naissance');
-            $table->string('lieu_naissance');
-            $table->string('contact')->unique();
+            $table->date('date_naissance')->nullable();
+            $table->string('lieu_naissance')->nullable();
+            $table->string('contact')->unique()->nullable();
             $table->string('matrim')->nullable();
             $table->string('cni')->nullable();
             $table->string('motivation')->nullable();

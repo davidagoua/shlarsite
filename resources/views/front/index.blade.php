@@ -1,7 +1,7 @@
 @extends('front.base')
 
 @section('content')
-    <section class="hero-section" style="min-height: 100vh" id="section_1">
+    <section class="hero-section" style="min-height: 100vh; background-image: url(/images/back.jpg); background-size: cover" id="section_1">
         <div class="section-overlay"></div>
 
         <div class="container d-flex justify-content-center align-items-center">

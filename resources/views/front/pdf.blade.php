@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-10 col-10 mx-auto">
+            <div class="col-lg-10 col-12 mx-auto">
                 <div id="section-pdf" class="p-3 border rounded m-3">
                     <div class="text-center">
                         <img src="/images/shlogo.png" width="100" alt="">

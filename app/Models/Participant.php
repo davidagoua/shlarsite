@@ -17,7 +17,7 @@ class Participant extends Model
         return $this->belongsTo(EntretientDay::class, 'entretient_day_id')
                 ->withDefault([
                     'id'=>1,
-                    'label'=>'Samedi 05 Aôut 2023'
+                    'label'=>'Samedi 07 Aôut 2025'
                 ]);
     }
 

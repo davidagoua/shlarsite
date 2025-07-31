@@ -14,6 +14,11 @@ use Filament\Resources\Table;
 use Filament\Tables;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\TextInput;
+
+
+
+
 
 class ParticipantResource extends Resource
 {
@@ -25,7 +30,9 @@ class ParticipantResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('uid'),
+                TextInput::make('nom'),
+                TextInput::make('prenoms'),
             ]);
     }
 
@@ -33,7 +40,7 @@ class ParticipantResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('id'),
+                Tables\Columns\TextColumn::make('uid')->copyable(),
                 Tables\Columns\TextColumn::make('contact'),
                 Tables\Columns\ImageColumn::make('cni'),
                 Tables\Columns\TextColumn::make('date_naissance'),

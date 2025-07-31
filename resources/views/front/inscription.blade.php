@@ -39,8 +39,8 @@
         <div class="container" x-data="{step: 1}">
             <div class="row">
 
-                <div class="col-lg-8 col-10 mx-auto">
-                    <form class="custom-form ticket-form mb-5 mb-lg-0" action="/inscription" enctype="multipart/form-data" method="post" role="form">
+                <div class="col-lg-8 col-12 mx-auto">
+                    <form class="custom-form ticket-form mb-5 mb-lg-0" action="/inscription/{{ $participant->uid}}" enctype="multipart/form-data" method="post" role="form">
                         @csrf
                         <h2 class="text-center mb-4">S'inscrire</h2>
 
@@ -141,8 +141,6 @@
                                 </div>
                             </div>
 
-
-
                             <div>
                                 <label for="">Photo d'identité</label>
                                 <input type="file" name="cni" id="imageUpload"
@@ -150,13 +148,13 @@
                             </div>
                             <div class="mb-3">
                                 <div>
-                                <img id="previewImage" width="300" src="">
+                                <img id="previewImage" width="80%" class="img-responsive" src="">
                                 </div>
                             </div>
 
                             <div>
-                                <label for=""> Lettre de motivation</label>
-                            <textarea name="motivation" rows="3" class="form-control"
+                                <label for="">Motivation</label>
+                            <textarea name="lettre" rows="3" class="form-control"
                                       id="ticket-form-message" placeholder="Pourquoi désirez-vous participer au S'25 ?"></textarea>
                             </div>
 

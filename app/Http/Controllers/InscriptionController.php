@@ -14,8 +14,9 @@ use Barryvdh\DomPDF\Facade\Pdf;
 class InscriptionController extends Controller
 {
     public function index(Request $request, Participant $participant = null)
-    {
-        if ($participant == null) {
+    {  
+      
+        if ($participant == null && $request->isMethod('GET')) {
             return redirect()->route('validate_wave');
         }
 
@@ -32,7 +33,7 @@ class InscriptionController extends Controller
             $request->session()->flash('success', 'Inscription effectuée, votre dossier sera evalué.');
             return redirect()->route('pdfsection', ['participant'=>$participant->id]);
         }
-        return view('front.inscription');
+        return view('front.inscription', ['participant'=> $participant]);
     }
 
     public function validate_wave(Request $request)
@@ -42,13 +43,13 @@ class InscriptionController extends Controller
             $request->validate([
                 'idtransaction'=>'required'
             ]);
-
-            $participant = Participant::query()->firstWhere(['uid'=> strtoupper($request->idtransaction)]);
+            
+            $participant = Participant::query()->firstWhere(['uid'=> $request->input('idtransaction')]);
 
             if($participant){
                 return redirect()->route('inscription', ['participant'=>$participant->uid]);
             }
-            $error = "La transaction n'existe pas.";
+            $error = "Code d'inscription incorrect !";
             session()->flash('error', $error);
         }
         return view('front.validate-wave', ['error'=>$error]);
