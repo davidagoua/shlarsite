@@ -81,7 +81,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 </ul>
 
-                <a href="/inscription" class="btn custom-btn d-lg-block d-sm-none d-none">Participer</a>
             </div>
         </div>
     </nav>
